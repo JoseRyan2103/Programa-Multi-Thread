@@ -8,9 +8,9 @@ class VerificarPrimoRunnable implements Runnable {
     @Override
     public void run() {
         if (verificarPrimo(numero)) {
-            System.out.println(numero + " é um número primo.");
+            System.out.println("O número " + numero + " é primo.");
         } else {
-            System.out.println(numero + " não é um número primo.");
+            System.out.println("O número "+ numero + " não é primo.");
         }
     }
 
